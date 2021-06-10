@@ -1,0 +1,78 @@
+body {
+  font-size: 16px 100% 1em;
+  margin: auto;
+}
+
+.boldText {
+  font-weight: bold;
+
+}
+
+.container-properties {
+  margin-top: 20px;
+}
+
+.topMargin {
+  margin-top: 15px;
+}
+
+.relendingTypes {
+  margin: auto 0 30px ;
+}
+
+.tableBorder {
+  border: 1px solid darkgrey;
+}
+
+.title-underline {
+  text-decoration: underline;
+}
+
+#hideText {
+}
+
+@media screen and (min-width: 0px) and (max-width: 769px) {
+  #hideText {color: #0275d8}  /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) {
+  #hideText {}   /* hide it elsewhere */
+}
+
+#hideTextB {
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 769px) {
+  #hideTextB {color: #5cb85c}  /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) {
+  #hideTextB {}   /* hide it elsewhere */
+}
+
+#displayText {
+font-weight: bold;
+color: #0275d8;
+}
+
+@media screen and (min-width: 0px) and (max-width: 769px) {
+  #displayText {display: inline;}  /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) {
+  #displayText {display: none;}   /* hide it elsewhere */
+}
+
+#displayTextB {
+font-weight: bold;
+color: #5cb85c;
+}
+
+@media screen and (min-width: 0px) and (max-width: 769px) {
+  #displayTextB {display: inline;}  /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) {
+  #displayTextB {display: none;}   /* hide it elsewhere */
+}
