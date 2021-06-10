@@ -31,11 +31,11 @@ body {
 #hideText {
 }
 
-@media screen and (min-width: 0px) and (max-width: 769px) {
+@media screen and (min-width: 0px) and (max-width: 992px) {
   #hideText {color: #0275d8}  /* show it on small screens */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 991px) {
   #hideText {}   /* hide it elsewhere */
 }
 
@@ -43,11 +43,11 @@ body {
 
 }
 
-@media screen and (min-width: 0px) and (max-width: 769px) {
+@media screen and (min-width: 0px) and (max-width: 992px) {
   #hideTextB {color: #5cb85c}  /* show it on small screens */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 991px) {
   #hideTextB {}   /* hide it elsewhere */
 }
 
@@ -56,11 +56,11 @@ font-weight: bold;
 color: #0275d8;
 }
 
-@media screen and (min-width: 0px) and (max-width: 769px) {
+@media screen and (min-width: 0px) and (max-width: 992px) {
   #displayText {display: inline;}  /* show it on small screens */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 991px) {
   #displayText {display: none;}   /* hide it elsewhere */
 }
 
@@ -69,10 +69,10 @@ font-weight: bold;
 color: #5cb85c;
 }
 
-@media screen and (min-width: 0px) and (max-width: 769px) {
+@media screen and (min-width: 0px) and (max-width: 992px) {
   #displayTextB {display: inline;}  /* show it on small screens */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 991px) {
   #displayTextB {display: none;}   /* hide it elsewhere */
 }
