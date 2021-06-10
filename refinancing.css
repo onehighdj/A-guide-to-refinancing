@@ -31,11 +31,17 @@ body {
 #hideText {
 }
 
-@media screen and (min-width: 0px) and (max-width: 1242px) {
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
   #hideText {color: #0275d8}  /* show it on small screens */
 }
 
-@media screen and (min-width: 1241px) {
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
   #hideText {}   /* hide it elsewhere */
 }
 
@@ -43,11 +49,17 @@ body {
 
 }
 
-@media screen and (min-width: 0px) and (max-width: 1242px) {
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
   #hideTextB {color: #5cb85c}  /* show it on small screens */
 }
 
-@media screen and (min-width: 1241px) {
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
   #hideTextB {}   /* hide it elsewhere */
 }
 
@@ -56,11 +68,17 @@ font-weight: bold;
 color: #0275d8;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1242px) {
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
   #displayText {display: inline;}  /* show it on small screens */
 }
 
-@media screen and (min-width: 1241px) {
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
   #displayText {display: none;}   /* hide it elsewhere */
 }
 
@@ -69,10 +87,16 @@ font-weight: bold;
 color: #5cb85c;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1242px) {
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
   #displayTextB {display: inline;}  /* show it on small screens */
 }
 
-@media screen and (min-width: 1241px) {
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
   #displayTextB {display: none;}   /* hide it elsewhere */
 }
